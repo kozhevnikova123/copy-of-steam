@@ -2,19 +2,21 @@
     margin: 0;
     padding: 0;
   }
-  header {
+ header {
     width: 100vw;
     background-color: #103a9e;
     height: 100px;
+    
   }
   .container {
     width: 1024px;
-    height: 100%;
-    margin: 0 auto;
+    height: 200px;
+    margin: 20px auto;
+    display:block;
+    
   }
-  img {
-    padding: 10px;
-    height: 80%;
+  .container img {
+    height: 200px;
     float: left;
   }
   ul {
